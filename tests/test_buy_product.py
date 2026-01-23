@@ -8,7 +8,7 @@ from pages.login_page import Login_page
 
 users_list = ["standart_user", "locked_out_user", "problem_user", "performance_glitch_user"]
 
-def test_login():
+def test_buy_product():
     driver = webdriver.Chrome()
     print("Starting test")
 
