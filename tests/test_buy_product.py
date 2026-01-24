@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from pages.login_page import Login_page
 
-users_list = ["standart_user", "locked_out_user", "problem_user", "performance_glitch_user"]
 
 def test_buy_product():
     driver = webdriver.Chrome()
